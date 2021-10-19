@@ -1,0 +1,55 @@
+.dashboard {
+  margin: auto;
+
+  h1 {
+    text-align: center;
+  }
+
+  .users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 90%;
+    margin: auto;
+
+    .user {
+      padding: 0 15px;
+
+      .card {
+        width: 300px;
+        margin-bottom: 1.5rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0,0,0,.125);
+        border-radius: .25rem;
+
+        .card-img-top {
+          width: 100%;
+          border-top-left-radius: calc(.25rem - 1px);
+          border-top-right-radius: calc(.25rem - 1px);
+        }
+
+        .card-body {
+          flex: 1 1 auto;
+          padding: 1.25rem;
+        }
+
+        .card-title {
+          margin-bottom: .75rem;
+        }
+
+        .card-text {
+          margin-top: 1.2em;
+          margin-bottom: 1.2em;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+

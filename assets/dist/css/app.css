@@ -1,0 +1,122 @@
+.dashboard {
+  margin: auto;
+}
+.dashboard h1 {
+  text-align: center;
+}
+.dashboard .users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 90%;
+  margin: auto;
+}
+.dashboard .users .user {
+  padding: 0 15px;
+}
+.dashboard .users .user .card {
+  width: 300px;
+  margin-bottom: 1.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+.dashboard .users .user .card .card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
+.dashboard .users .user .card .card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+.dashboard .users .user .card .card-title {
+  margin-bottom: 0.75rem;
+}
+.dashboard .users .user .card .card-text {
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+  font-size: 15px;
+}
+
+.tooltip {
+  position: relative;
+  display: none;
+  border-bottom: 1px dotted black;
+}
+.tooltip.active {
+  display: block;
+}
+.tooltip .tooltiptext {
+  width: 400px;
+  background-color: black;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.fetch-user-info {
+  cursor: pointer;
+}
+
+.login-main {
+  background-color: #FFFFFF;
+  width: 400px;
+  height: 400px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+.login-main .title {
+  padding-top: 40px;
+  color: #8C55AA;
+  font-weight: bold;
+  font-size: 23px;
+  text-align: center;
+}
+.login-main form.login {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-main form.login .field {
+  color: #263238FF;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  background: rgba(136, 126, 126, 0.04);
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  margin-bottom: 27px;
+}
+.login-main form.login .submit {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #9C27B0, #E040FB);
+  border: 0;
+  padding: 10px 40px;
+  font-size: 13px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 430px) {
+  .login-main {
+    width: 100%;
+  }
+}

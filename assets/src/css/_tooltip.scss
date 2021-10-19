@@ -1,0 +1,21 @@
+.tooltip {
+  position: relative;
+  display: none;
+  border-bottom: 1px dotted black;
+
+  &.active {
+    display: block;
+  }
+
+  .tooltiptext {
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    position: absolute;
+    z-index: 1;
+  }
+}

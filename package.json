@@ -1,0 +1,23 @@
+{
+  "name": "elementor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.mix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "laravel-mix": "^6.0.34",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
